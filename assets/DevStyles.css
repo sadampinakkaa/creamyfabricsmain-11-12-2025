@@ -534,6 +534,7 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   margin-right: 4px;
 }
 .color-swatch-list {
+  display: flex;
   overflow: visible !important;
   gap: 8px;
 }
