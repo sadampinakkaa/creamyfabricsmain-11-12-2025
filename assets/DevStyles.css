@@ -513,6 +513,7 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   overflow: visible;
   margin-left: 4px;
   margin-right: 4px;
+  margin-bottom: 24px;
   flex-shrink: 0;
 }
 .hb_badge-text__color--option {
