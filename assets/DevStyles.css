@@ -524,6 +524,7 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 .product-form__option-info {
   margin-bottom: 14px !important;
