@@ -524,13 +524,14 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   background-color: #282828;
   border-radius: 100px;
   position: absolute;
-  top: -18px !important;
-  bottom: auto !important;
+  top: -18px;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
   z-index: 10;
   pointer-events: none;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 .color-swatch-list {
   overflow: visible !important;
