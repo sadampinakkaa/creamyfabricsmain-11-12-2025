@@ -1,0 +1,328 @@
+<div class="pl-page--narrow">
+  <div class="pl-currency-selector">
+    <div class="pl-space-bottom">
+      <div class="returns-wrap">
+        <div class="returns-hero">
+
+          <h1 class="returns-title">{{ 'returns-portal.title' | t }}</h1>
+
+          <div class="returns-sub">
+            <p>{{ 'returns-portal.intro_line1' | t }}</p>
+            <p>{{ 'returns-portal.intro_line2' | t }}</p>
+
+            <h2 class="pl-header">{{ 'returns-portal.steps_title' | t }}</h2>
+
+            <ol class="returns-steps">
+              <li>
+                <strong>{{ 'returns-portal.step1_title' | t }}</strong>
+                <p>{{ 'returns-portal.step1_intro' | t }}</p>
+                <p>{{ 'returns-portal.step1_eur' | t }}<br>{{ 'returns-portal.step1_chf' | t }}</p>
+                <p><strong>{{ 'returns-portal.step1_notice_heading' | t }}</strong> {{ 'returns-portal.step1_notice_text1' | t }}</p>
+                <p>{{ 'returns-portal.step1_notice_text2' | t }}</p>
+                <p>{{ 'returns-portal.step1_after_select' | t }}</p>
+              </li>
+              <li>
+                <strong>{{ 'returns-portal.step2_title' | t }}</strong>
+                <p>{{ 'returns-portal.step2_text' | t }}</p>
+              </li>
+              <li>
+                <strong>{{ 'returns-portal.step3_title' | t }}</strong>
+                <p>{{ 'returns-portal.step3_text' | t }}</p>
+              </li>
+              <li>
+                <strong>{{ 'returns-portal.step4_title' | t }}</strong>
+                <p>{{ 'returns-portal.step4_text' | t }}</p>
+              </li>
+              <li>
+                <strong>{{ 'returns-portal.step5_title' | t }}</strong>
+                <p>{{ 'returns-portal.step5_text_line1' | t }}</p>
+                <p>{{ 'returns-portal.step5_text_line2' | t }}</p>
+              </li>
+              <li>
+                <strong>{{ 'returns-portal.step6_title' | t }}</strong>
+                <p>{{ 'returns-portal.step6_text' | t }}</p>
+              </li>
+            </ol>
+          </div>
+
+          <!-- Hauptaktion: Retoure / Umtausch starten -->
+<div class="returns-action-box">
+  <h3 class="returns-action-title">{{ 'returns-portal.action_title' | t }}</h3>
+
+  <div class="pl-dropdown" id="country-picker">
+    <label for="return-country" class="pl-dropdown-label">{{ 'returns-portal.select_country_label' | t }}</label>
+    <select id="return-country" class="pl-dropdown-input" aria-label="{{ 'returns-portal.select_country_label' | t }}">
+      <option value="" selected>{{ 'returns-portal.select_country_placeholder' | t }}</option>
+      <option value="de">{{ 'returns-portal.country.eur' | t }}</option>
+      <option value="ch">{{ 'returns-portal.country.chf' | t }}</option>
+    </select>
+  </div>
+
+  <div class="pl-space-top">
+    <button id="returns-continue" class="pl-button pl-button--primary pl-is-full-width" type="button" disabled>
+      <span class="pl-button-content">{{ 'returns-portal.continue' | t }}</span>
+    </button>
+  </div>
+</div>
+
+          <div class="pl-space-top">
+          <div class="returns-sub">
+                        <p><strong>{{ 'returns-portal.note_heading' | t }}</strong> {{ 'returns-portal.note_text' | t }}</p>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hier rendert das Portal -->
+  <div id="pl-returns-container" class="pl-space-top"></div>
+</div>
+
+
+
+<style>
+  .pl-page--narrow{max-width:780px;margin:0 auto}
+  .pl-space-bottom{margin-bottom:1rem}
+  .pl-space-top{margin-top:1.25rem}
+  .pl-text-center{text-align:center}
+  .pl-header{font-size:1.5rem;line-height:1.3;margin:0 0 .25rem}
+  .pl-header-text{color:#555;margin:0}
+  .pl-dropdown-label{display:block;margin:.25rem 0}
+  .pl-dropdown-input{width:100%;padding:.6rem .75rem;font:inherit}
+  .pl-button{display:inline-flex;align-items:center;justify-content:center;padding:.75rem 1rem;border:0;cursor:pointer}
+  .pl-button--primary{background:#111;color:#fff}
+  .pl-is-full-width{width:100%}
+  .pl-button[disabled]{opacity:.5;cursor:not-allowed}
+
+/* Allgemeiner Seitenrahmen */
+.pl-page--narrow {
+  max-width: 960px;          /* vorher 780px */
+  margin: 0 auto;
+  padding: 0 24px;           /* leichter Innenabstand an den Rändern */
+}
+
+/* Abschnittsstruktur */
+.returns-hero {
+  text-align: left;
+}
+
+.returns-title {
+  font-size: clamp(32px, 3.6vw, 44px);
+  line-height: 1.3;
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+/* Haupttextbereich */
+.returns-sub {
+  max-width: 860px;          /* etwas breiter, folgt dem Container */
+  margin: 0 auto;
+  color: #222;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.returns-sub p {
+  margin: 0 0 1.1rem;
+}
+
+/* Überschrift "So funktioniert’s" größer und deutlicher */
+.pl-header {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 2.25rem 0 1.25rem;
+  color: #111;
+  text-transform: none;
+  text-align: left;
+}
+
+/* Schritte mit mehr Luft */
+.returns-steps {
+  list-style: decimal;
+  list-style-position: outside;
+  margin: 0 0 2rem 1.5rem;
+  padding: 0;
+}
+.returns-steps li {
+  margin-bottom: 1.3rem;
+}
+.returns-steps li strong {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  font-weight: 650;
+}
+
+/* Dropdown-Bereich etwas breiter & luftiger */
+#country-picker {
+  max-width: 420px;
+  margin: 2.5rem auto 0;
+}
+
+.pl-dropdown-input {
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  font-size: 17px;
+}
+
+.pl-space-top .pl-button {
+  border-radius: 8px;
+  font-size: 17px;
+  padding: 1rem 1.25rem;
+  margin-top: 0.85rem;
+}
+
+/* Rahmenbereich für die Hauptaktion */
+.returns-action-box {
+  max-width: 540px;
+  margin: 2.5rem auto 0;
+  padding: 2rem 1.75rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  text-align: center;
+}
+
+.returns-action-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #111;
+}
+
+/* Dropdown und Button innerhalb der Box angleichen */
+.returns-action-box .pl-dropdown {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.returns-action-box .pl-dropdown-input {
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 0.8rem 0.9rem;
+  font-size: 16px;
+  background: #fff;
+}
+
+.returns-action-box .pl-space-top .pl-button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 0.95rem 1.25rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Hover und Fokus */
+.returns-action-box .pl-button--primary:hover:not([disabled]) {
+  background: #222;
+}
+
+/* Desktop-Tuning */
+@media (min-width: 1280px) {
+  .pl-page--narrow { max-width: 1080px; }
+  .returns-sub { font-size: 18px; line-height: 1.75; }
+}
+
+}
+
+</style>
+
+<script>
+(function () {
+  var selectEl  = document.getElementById('return-currency') || document.getElementById('return-country'); // falls du den alten id-Namen noch hast
+  var btn       = document.getElementById('returns-continue');
+  var container = document.getElementById('pl-returns-container');
+  var csDiv     = document.querySelector(".pl-currency-selector");
+
+   // --- Sprache erkennen (mit Weglot) ---
+  function resolveLang() {
+    try {
+      if (window.Weglot && typeof Weglot.getCurrentLang === 'function') {
+        return Weglot.getCurrentLang().toLowerCase().split('-')[0];
+      }
+    } catch (e) {}
+    var htmlLang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+    if (htmlLang) return htmlLang.split('-')[0];
+    return {{ request.locale.iso_code | split: '-' | first | downcase | json }} || 'en';
+  }
+
+  // Shopify-Locale & Settings (sauber gequotet)
+  var shopLang = resolveLang();
+  var userId    = {{ section.settings.parcellab_user_id | default: '"1623141"' }};
+  var env       = {{ section.settings.environment | default: 'prod' | json }};
+  var host      = (env === "staging") ? "staging-returns.parcellab.com" : "returns.parcellab.com";
+
+  // Nur diese Sprachen bekommen den CHF/EUR-Selector
+  var supportedForChf = ['de','en','fr','it'];
+
+  function https(url){ return 'https://' + url; }
+
+  function loadAssets(cb) {
+    if (!document.getElementById('pl-returns-portal-styles')) {
+      var styles = document.createElement("link");
+      styles.id  = "pl-returns-portal-styles";
+      styles.rel = "stylesheet";
+      styles.href= https(host) + '/dist/returns-plugin.css';
+      document.head.appendChild(styles);
+    }
+    if (window.parcelLab && window.parcelLab.returns) return cb();
+
+    var existing = document.getElementById('pl-returns-portal-script');
+    if (existing) { existing.addEventListener('load', cb, { once: true }); return; }
+
+    var s = document.createElement("script");
+    s.id  = 'pl-returns-portal-script';
+    s.async = true;
+    s.src = https(host) + '/dist/returns-plugin.js';
+    s.onload = cb;
+    document.body.appendChild(s);
+  }
+
+  // Falls dein Plugin Currency versteht, setzen wir beides:
+  function renderPortal(countryCode) {
+    container.innerHTML = '';
+    var node = document.createElement('div');
+    node.id = 'pl-returns-plugin';
+    node.setAttribute('data-user', userId);
+    if (countryCode.toLowerCase() == 'ch' && !supportedForChf.includes(shopLang)) 
+      node.setAttribute('data-lang-code', 'en');
+    else
+      node.setAttribute('data-lang-code', shopLang);
+    node.setAttribute('data-country-code', countryCode.toLowerCase());
+    node.setAttribute('data-scroll', 'off');
+    container.appendChild(node);
+
+    // parcelLab‑Widget initialisieren
+    if (window.parcelLab && window.parcelLab.returns && window.parcelLab.returns.init) {
+      window.parcelLab.returns.init();
+    }
+  }
+
+  // === Ab hier: Sprache ist de/en/fr/it → Selector bleibt aktiv ===
+
+  function enableButtonIfChoice() {
+    if (btn && selectEl) btn.disabled = !selectEl.value;
+  }
+  if (selectEl) {
+    selectEl.addEventListener('change', enableButtonIfChoice);
+    selectEl.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' && btn && !btn.disabled) btn.click();
+    });
+    enableButtonIfChoice();
+  }
+
+  if (btn) {
+    btn.addEventListener('click', function () {
+      if (!selectEl || !selectEl.value) return;
+      var val = String(selectEl.value).toLowerCase(); // 'eur' | 'chf' (oder 'de'/'ch' falls Country-Variante)
+      loadAssets(function () {
+        if (csDiv) csDiv.style.display = "none";
+        renderPortal(val);
+      });
+    });
+  }
+})();
+</script>

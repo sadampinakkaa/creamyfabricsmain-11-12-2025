@@ -1,0 +1,13 @@
+{% paginate collection.products by 50 %}
+        {%- for product in collection.products -%}{% comment %}start BSS Commerce Hide Price{% endcomment %}{% capture bss_lock_check %}{% render 'bss-lock-condition', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if bss_lock_check contains 'true' %}{% render 'bss-hide-product-design', section: 'templates/collection.ajax.liquid', subject: product %}{% continue %}{% endif %}{% comment %}end BSS Commerce Hide Price{% endcomment %}
+          {% unless product.tags contains 'secretsale'
+            or product.metafields.custom.hide_on_collection_page == true
+          %}
+            {%- render 'product-item',
+              product: product,
+              collection: collection,
+              reveal: settings.stagger_products_apparition
+            -%}
+          {% endunless %}
+        {%- endfor -%}
+      {% endpaginate %}
