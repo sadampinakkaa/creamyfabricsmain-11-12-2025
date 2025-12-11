@@ -513,6 +513,7 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   overflow: visible;
   margin-left: 4px;
   margin-right: 4px;
+  flex-shrink: 0;
 }
 .hb_badge-text__color--option {
   color: #FFF;
@@ -530,11 +531,10 @@ image-with-text.image-with-text .container .image-with-text__content-wrapper h3.
   white-space: nowrap;
   z-index: 10;
   pointer-events: none;
-  margin-left: 4px;
-  margin-right: 4px;
 }
 .color-swatch-list {
   display: flex;
+  flex-wrap: wrap;
   overflow: visible !important;
   gap: 8px;
 }
