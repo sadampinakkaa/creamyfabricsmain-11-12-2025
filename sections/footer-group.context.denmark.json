@@ -12,5 +12,31 @@
   "context": {
     "market": "denmark"
   },
-  "sections": {}
+  "sections": {
+    "footer": {
+      "settings": {},
+      "blocks": {
+        "links_eJ69Pb": {
+          "settings": {
+            "menu": "uk-hilfe-kontakt"
+          }
+        },
+        "links": {
+          "settings": {
+            "menu": "uk-information"
+          }
+        },
+        "newsletter": {
+          "settings": {
+            "title": "Cfab Newsletter"
+          }
+        },
+        "image_CVTAPc": {
+          "settings": {
+            "image": "shopify://shop_images/251006_CFAB_Logo_01.png"
+          }
+        }
+      }
+    }
+  }
 }
