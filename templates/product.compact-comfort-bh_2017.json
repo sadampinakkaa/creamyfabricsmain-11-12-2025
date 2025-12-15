@@ -250,21 +250,6 @@
             "vertical_alignment": "start"
           }
         },
-        "item_XLrFWn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/extra_rausnehmbare_pads_de51d8ad-2b62-49cc-b53d-3b73bad49efd.jpg",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Extra Rausnehmbare Pads</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_Xkafgh": {
           "type": "item",
           "settings": {
@@ -303,7 +288,6 @@
         "item_tCge3h",
         "item_dRh7rx",
         "item_qYWTCH",
-        "item_XLrFWn",
         "item_Xkafgh",
         "item_7HidAU"
       ],
