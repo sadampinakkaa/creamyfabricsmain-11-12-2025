@@ -78,6 +78,12 @@
             "text": "<ol><li><strong>Bitte wähle eine Nummer größer, da dieses Modell etwas kleiner ausfällt</strong></li></ol>"
           }
         },
+        "liquid_M3YeXD": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "Materialzusammensetzung: 90% Polyamide 10% Elastane"
+          }
+        },
         "liquid_qHwC6D": {
           "type": "liquid",
           "settings": {
@@ -161,6 +167,7 @@
         "35475024-45f0-4c2b-af83-7a6b508c5351",
         "6be7c2a5-72be-4684-8e36-3d97985c452f",
         "text_9QbV34",
+        "liquid_M3YeXD",
         "liquid_qHwC6D",
         "buy_buttons",
         "91ebacae-7176-48e4-842e-6bd00d5d0079",
@@ -195,22 +202,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Glättende Sanduhr Figur</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_7KUhkB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/i_Icons_4.3.png",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Atmungsaktiv & Anti-Schwitz</p>",
+            "content": "<p>Seamless Design</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -225,7 +217,22 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Natürliche Po-Lifting-Effekt</p>",
+            "content": "<p>Lifting-Effekt</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_7KUhkB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/i_Icons_4.3.png",
+            "image_width": 50,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Hoher Bund mit Shape-Effekt  </p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -240,7 +247,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Badezimmer freundlich</p>",
+            "content": "<p>Gym & Alltag</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -255,22 +262,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Verstellbare Träger</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_NLYGKE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/i_Icons_4.1.png",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Quetscht nicht ein</p>",
+            "content": "<p>Vielseitig kombinierbar</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -281,11 +273,10 @@
       },
       "block_order": [
         "item_Rafxcm",
-        "item_7KUhkB",
         "item_wXRMVb",
+        "item_7KUhkB",
         "item_8VU6Wk",
-        "item_Xky7cq",
-        "item_NLYGKE"
+        "item_Xky7cq"
       ],
       "settings": {
         "reveal_on_scroll": true,
