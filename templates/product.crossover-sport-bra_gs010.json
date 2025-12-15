@@ -63,6 +63,12 @@
         "liquid_xF9jLa": {
           "type": "liquid",
           "settings": {
+            "liquid": "Materialzusammensetzung: 90% Polyamide 10% Elastane"
+          }
+        },
+        "liquid_dkBFC9": {
+          "type": "liquid",
+          "settings": {
             "liquid": "<font color = green class=\"new-big-redesign-ab-test-a\"> Artikel verfügbar - Lieferzeit: 3-5 Werktage </font>"
           }
         },
@@ -134,6 +140,7 @@
         "sizekick_creamy_fabrics_sizekick_P4rxnw",
         "4179db7d-0a04-48c1-ad34-3812aa4158ba",
         "liquid_xF9jLa",
+        "liquid_dkBFC9",
         "liquid_QYErPt",
         "buy_buttons",
         "accordion_list_8HCyVD",
@@ -182,21 +189,6 @@
             "image_border": "rgba(0,0,0,0)",
             "title": "",
             "content": "<p>Push-Up Effekt</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_TmXwn8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Schneidet_nicht_ein_icon_6e1b8ee9-12c3-415a-ae58-35afd2cd00dc.jpg",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Schneidet nicht ein</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -264,48 +256,15 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
-        },
-        "item_Xkafgh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/keine_buegel_icon_869510e5-bd63-45ed-8896-60be9eeba576.jpg",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Keine Bügel</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_7HidAU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Ultra_weiches_Material_icon_9f423485-dbcd-48cf-940f-95f6d46a94aa.jpg",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Ultraweiche und atmungsaktive</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
         }
       },
       "block_order": [
         "item_MFqARV",
         "item_WprRwq",
-        "item_TmXwn8",
         "item_tCge3h",
         "item_dRh7rx",
         "item_qYWTCH",
-        "item_XLrFWn",
-        "item_Xkafgh",
-        "item_7HidAU"
+        "item_XLrFWn"
       ],
       "settings": {
         "reveal_on_scroll": true,
