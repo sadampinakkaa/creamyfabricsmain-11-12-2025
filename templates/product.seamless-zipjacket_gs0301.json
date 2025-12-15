@@ -63,7 +63,7 @@
         "liquid_3YnwQy": {
           "type": "liquid",
           "settings": {
-            "liquid": "Materialzusammensetzung: 90% Cotton 10% Elastan"
+            "liquid": "Materialzusammensetzung: 90% Polyamide 10% Elastane"
           }
         },
         "4f008b6e-c7a1-422d-b26d-f0530ee93739": {
@@ -233,7 +233,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Hautfreundlich</p>",
+            "content": "<p>Figurbetonende Passform   </p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -248,7 +248,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Bequeme Flexibilität</p>",
+            "content": "<p>Daumenlöcher Design</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -263,7 +263,7 @@
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
-            "content": "<p>Langlebige Elastizität</p>",
+            "content": "<p>Gym & Alltag</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -275,21 +275,6 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Natuerliche_Baumwolle.jpg",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Natürliche Baumwolle</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_Xky7cq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Vielseitig_kombinierbar.png",
             "image_width": 50,
             "image_border": "rgba(0,0,0,0)",
             "title": "",
@@ -323,7 +308,6 @@
         "item_7KUhkB",
         "item_wXRMVb",
         "item_8VU6Wk",
-        "item_Xky7cq",
         "item_NLYGKE"
       ],
       "settings": {
