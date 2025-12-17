@@ -263,45 +263,13 @@
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
-        },
-        "item_Xky7cq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/i_Icons_4.6.png",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Verstellbare Träger</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_NLYGKE": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/i_Icons_4.1.png",
-            "image_width": 50,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "",
-            "content": "<p>Quetscht nicht ein</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
         }
       },
       "block_order": [
         "item_Rafxcm",
         "item_7KUhkB",
         "item_wXRMVb",
-        "item_8VU6Wk",
-        "item_Xky7cq",
-        "item_NLYGKE"
+        "item_8VU6Wk"
       ],
       "settings": {
         "reveal_on_scroll": true,
