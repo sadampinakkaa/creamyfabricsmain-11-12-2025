@@ -41,13 +41,13 @@
         },
         "image_qEnJti": {
           "settings": {
-            "image": "shopify://shop_images/C_BANNER.webp"
+            "image": "shopify://shop_images/Cotton_Redefined.webp"
           }
         }
       },
       "block_order": [
-        "image_ekWL4",
-        "image_qEnJti"
+        "image_qEnJti",
+        "image_ekWL4"
       ]
     },
     "collection_list_ezrFPU": {
