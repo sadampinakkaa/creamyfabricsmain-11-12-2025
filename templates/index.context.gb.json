@@ -16,12 +16,39 @@
     "slideshow_EET6a7": {
       "settings": {},
       "blocks": {
+        "image_YCYKG": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/B1.webp",
+            "split_image": null,
+            "mobile_image": null,
+            "header-6753b62408e27322d89bee0ef4933d22": null,
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "header-22ae751d75cc2d68dcc1607b6707b652": null,
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_qEnJti": {
           "settings": {
             "image": "shopify://shop_images/Cotton_Redefined.webp"
           }
         }
-      }
+      },
+      "block_order": [
+        "image_YCYKG",
+        "image_qEnJti"
+      ]
     }
   }
 }

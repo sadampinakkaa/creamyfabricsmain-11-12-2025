@@ -20,9 +20,27 @@
             "subheading": "",
             "title": "",
             "button_1_text": "",
-            "button_1_link": "",
+            "button_1_link": "shopify://collections/kleidung",
             "button_2_text": "",
-            "button_2_link": "",
+            "button_2_link": "shopify://collections/accessories",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UaPWEH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/B1.webp",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/xmas-sale",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/kleidung",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -32,7 +50,8 @@
         }
       },
       "block_order": [
-        "image_qEnJti"
+        "image_qEnJti",
+        "image_UaPWEH"
       ],
       "name": "Slideshow",
       "settings": {
@@ -295,8 +314,8 @@
     "slideshow_EET6a7",
     "collection_list_ezrFPU",
     "featured_collections_wQAHaW",
-    "featured_collections_zeaVaL",
     "featured_collections_NzywLe",
+    "featured_collections_zeaVaL",
     "text_with_icons_DatCHJ"
   ]
 }
