@@ -122,7 +122,6 @@
         },
         "collection_URn4MA": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "kleidung",
             "label": "Lounge Wear",
@@ -190,8 +189,8 @@
       "name": "Featured collections",
       "settings": {
         "subheading": "",
-        "title": "XMAS Sale",
-        "content": "<p>Entdecke unsere beliebtesten Styles mit exklusiven <strong>X-MAS Sale</strong>-Rabatten – sichere dir dein Lieblingsstück, bevor es ausverkauft ist!</p>",
+        "title": "End of Year Sale",
+        "content": "<p>Entdecke unsere beliebtesten Styles mit exklusiven <strong>End of Year Sale</strong>-Rabatten – sichere dir dein Lieblingsstück, bevor es ausverkauft ist!</p>",
         "hide_ratings": false,
         "products_count": 50,
         "products_per_row": 4,
