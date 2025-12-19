@@ -49,6 +49,7 @@
       "blocks": {
         "collection_HKjMxQ": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/Design_ohne_Titel-2.jpg",
@@ -126,6 +127,7 @@
         "collection_CaEFEW",
         "collection_8hDGd4"
       ],
+      "disabled": true,
       "name": "Collection list",
       "settings": {
         "reveal_on_scroll": false,
@@ -157,7 +159,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "content": "<h3><strong>Wine-Red Collection</strong></h3>",
+        "content": "<h3><strong>Unsere Neuheiten</strong></h3>",
         "hide_ratings": true,
         "products_count": 50,
         "products_per_row": 4,
