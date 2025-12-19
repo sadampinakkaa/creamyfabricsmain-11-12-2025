@@ -1,1 +1,42 @@
-{"parent":"index.json","context":{"market":"us"},"sections":{"collection_list_ezrFPU":{"settings":{},"blocks":{"collection_Uwwici":{"settings":{"title":"Unter 30 $"}},"collection_9EaVXz":{"settings":{"title":"Unter 50 $"}}}},"slideshow_EET6a7":{"settings":{},"blocks":{"image_qEnJti":{"settings":{"image":"shopify:\/\/shop_images\/2_e2839160-77a0-42df-91be-e0d2082d00bc.png"}}}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "slideshow_EET6a7": {
+      "settings": {},
+      "blocks": {
+        "image_qEnJti": {
+          "settings": {
+            "image": "shopify://shop_images/C_BANNER.webp"
+          }
+        }
+      }
+    },
+    "collection_list_ezrFPU": {
+      "settings": {},
+      "blocks": {
+        "collection_Uwwici": {
+          "settings": {
+            "title": "Unter 30 $"
+          }
+        },
+        "collection_9EaVXz": {
+          "settings": {
+            "title": "Unter 50 $"
+          }
+        }
+      }
+    }
+  }
+}
