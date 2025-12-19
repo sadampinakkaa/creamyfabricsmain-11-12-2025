@@ -1,1 +1,300 @@
-{"sections":{"slideshow_EET6a7":{"type":"slideshow","blocks":{"image_qEnJti":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1_ded541a2-67b4-4673-9247-929ba8c4a3aa.png","text_position":"middle_center","subheading":"","title":"","button_1_text":"","button_1_link":"","button_2_text":"","button_2_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["image_qEnJti"],"name":"Slideshow","settings":{"section_height":"auto","transition_type":"sweep","autoplay":true,"cycle_speed":4,"background":"rgba(0,0,0,0)","section_class":""}},"collection_list_ezrFPU":{"type":"collection-list","blocks":{"collection_HKjMxQ":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/Design_ohne_Titel-2.jpg","subheading":"Geschenke für Sie","title":"Bestseller","link_text":"Jetzt ansehen","link_url":"shopify:\/\/collections\/bestseller","text_color":"rgba(0,0,0,0)","overlay_color":"#000000","overlay_opacity":30}},"collection_Uwwici":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/Design_ohne_Titel_2f9042ec-147e-4193-95aa-cba4cf2ec805.jpg","subheading":"Geschenkideen","title":"Unter 30 €","link_text":"Jetzt ansehen","link_url":"shopify:\/\/collections\/under-30","text_color":"rgba(0,0,0,0)","overlay_color":"#000000","overlay_opacity":30}},"collection_9EaVXz":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/Design_ohne_Titel-3.jpg","subheading":"Geschenkideen","title":"Unter 50 €","link_text":"Jetzt ansehen","link_url":"shopify:\/\/collections\/50-euro","text_color":"rgba(0,0,0,0)","overlay_color":"#000000","overlay_opacity":30}},"collection_CaEFEW":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/Design_ohne_Titel-4.jpg","subheading":"Passt immer","title":"Gift-Cards","link_text":"Jetzt ansehen","link_url":"shopify:\/\/products\/e-gift-card-digital","text_color":"rgba(0,0,0,0)","overlay_color":"#000000","overlay_opacity":30}},"collection_8hDGd4":{"type":"collection","disabled":true,"settings":{"collection":"","image":"shopify:\/\/shop_images\/Design_ohne_Titel-5.jpg","subheading":"Hohe Nachfrage","title":"Im Trend","link_text":"Jetzt ansehen","link_url":"","text_color":"rgba(0,0,0,0)","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection_HKjMxQ","collection_Uwwici","collection_9EaVXz","collection_CaEFEW","collection_8hDGd4"],"name":"Collection list","settings":{"reveal_on_scroll":false,"layout":"carousel","subheading":"Entdecke Geschenkideen für die wichtigsten Frauen in deinem Leben – immer inklusive 30 Tagen Rückgaberecht","title":"Geschenke-Guide","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"featured_collections_wQAHaW":{"type":"featured-collections","blocks":{"collection_gTG7L7":{"type":"collection","settings":{"collection":"neuheiten","label":"","button_text":"","button_url":""}}},"block_order":["collection_gTG7L7"],"custom_css":[],"name":"Featured collections","settings":{"subheading":"","title":"","content":"<h3><strong>Wine-Red Collection<\/strong><\/h3>","hide_ratings":true,"products_count":50,"products_per_row":4,"stack_products":false,"show_cta":false,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)","section_class":""}},"featured_collections_zeaVaL":{"type":"featured-collections","blocks":{"collection_dAC3gT":{"type":"collection","settings":{"collection":"bhs","label":"","button_text":"","button_url":""}}},"block_order":["collection_dAC3gT"],"name":"Featured collections","settings":{"subheading":"","title":"","content":"<h3><strong>Deine Must-have BH's<\/strong><\/h3>","hide_ratings":true,"products_count":50,"products_per_row":4,"stack_products":false,"show_cta":false,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)","section_class":""}},"featured_collections_NzywLe":{"type":"featured-collections","blocks":{"collection_x8LYNU":{"type":"collection","settings":{"collection":"bestseller","label":"","button_text":"","button_url":""}}},"block_order":["collection_x8LYNU"],"name":"Neuheiten Collection","settings":{"subheading":"","title":"","content":"<h3><strong>Bestseller<\/strong><\/h3>","hide_ratings":true,"products_count":50,"products_per_row":4,"stack_products":false,"show_cta":false,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)","section_class":""}},"text_with_icons_DatCHJ":{"type":"text-with-icons","blocks":{"item_zca8aN":{"type":"item","settings":{"icon":"picto-box","custom_icon_width":50,"title":"Kostenloser Versand","content":"<p>Ab 50€ übernehmen wir die Versandkosten.<\/p>"}},"item_7YygMb":{"type":"item","settings":{"icon":"picto-phone","custom_icon_width":50,"title":"30 Tage Rückgaberecht","content":"<p>Risikolos bestellen und anprobieren.<\/p>"}},"item_4ERwLk":{"type":"item","settings":{"icon":"picto-lock","custom_icon_width":50,"title":"Umtausch","content":"<p>Kostenloser Größenumtausch inklusive.<\/p>"}},"item_KJByjx":{"type":"item","settings":{"icon":"picto-email","custom_icon_width":50,"title":"Rechnungs- & Ratenkauf","content":"<p>Bezahle in 30 Tagen oder aufgeteilt in mehrere Raten.<\/p>"}}},"block_order":["item_zca8aN","item_7YygMb","item_4ERwLk","item_KJByjx"],"name":"Text with icons","settings":{"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["slideshow_EET6a7","collection_list_ezrFPU","featured_collections_wQAHaW","featured_collections_zeaVaL","featured_collections_NzywLe","text_with_icons_DatCHJ"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_EET6a7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_qEnJti": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/C_BANNER.webp",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_qEnJti"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)",
+        "section_class": ""
+      }
+    },
+    "collection_list_ezrFPU": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_HKjMxQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_ohne_Titel-2.jpg",
+            "subheading": "Geschenke für Sie",
+            "title": "Bestseller",
+            "link_text": "Jetzt ansehen",
+            "link_url": "shopify://collections/bestseller",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Uwwici": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_ohne_Titel_2f9042ec-147e-4193-95aa-cba4cf2ec805.jpg",
+            "subheading": "Geschenkideen",
+            "title": "Unter 30 €",
+            "link_text": "Jetzt ansehen",
+            "link_url": "shopify://collections/under-30",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9EaVXz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_ohne_Titel-3.jpg",
+            "subheading": "Geschenkideen",
+            "title": "Unter 50 €",
+            "link_text": "Jetzt ansehen",
+            "link_url": "shopify://collections/50-euro",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_CaEFEW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_ohne_Titel-4.jpg",
+            "subheading": "Passt immer",
+            "title": "Gift-Cards",
+            "link_text": "Jetzt ansehen",
+            "link_url": "shopify://products/e-gift-card-digital",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8hDGd4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Design_ohne_Titel-5.jpg",
+            "subheading": "Hohe Nachfrage",
+            "title": "Im Trend",
+            "link_text": "Jetzt ansehen",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_HKjMxQ",
+        "collection_Uwwici",
+        "collection_9EaVXz",
+        "collection_CaEFEW",
+        "collection_8hDGd4"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Entdecke Geschenkideen für die wichtigsten Frauen in deinem Leben – immer inklusive 30 Tagen Rückgaberecht",
+        "title": "Geschenke-Guide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_wQAHaW": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_gTG7L7": {
+          "type": "collection",
+          "settings": {
+            "collection": "neuheiten",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_gTG7L7"
+      ],
+      "custom_css": [],
+      "name": "Featured collections",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3><strong>Wine-Red Collection</strong></h3>",
+        "hide_ratings": true,
+        "products_count": 50,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "section_class": ""
+      }
+    },
+    "featured_collections_zeaVaL": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_dAC3gT": {
+          "type": "collection",
+          "settings": {
+            "collection": "bhs",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dAC3gT"
+      ],
+      "name": "Featured collections",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3><strong>Deine Must-have BH's</strong></h3>",
+        "hide_ratings": true,
+        "products_count": 50,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "section_class": ""
+      }
+    },
+    "featured_collections_NzywLe": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_x8LYNU": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestseller",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_x8LYNU"
+      ],
+      "name": "Neuheiten Collection",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h3><strong>Bestseller</strong></h3>",
+        "hide_ratings": true,
+        "products_count": 50,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "section_class": ""
+      }
+    },
+    "text_with_icons_DatCHJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_zca8aN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Kostenloser Versand",
+            "content": "<p>Ab 50€ übernehmen wir die Versandkosten.</p>"
+          }
+        },
+        "item_7YygMb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "30 Tage Rückgaberecht",
+            "content": "<p>Risikolos bestellen und anprobieren.</p>"
+          }
+        },
+        "item_4ERwLk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon_width": 50,
+            "title": "Umtausch",
+            "content": "<p>Kostenloser Größenumtausch inklusive.</p>"
+          }
+        },
+        "item_KJByjx": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "Rechnungs- & Ratenkauf",
+            "content": "<p>Bezahle in 30 Tagen oder aufgeteilt in mehrere Raten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_zca8aN",
+        "item_7YygMb",
+        "item_4ERwLk",
+        "item_KJByjx"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow_EET6a7",
+    "collection_list_ezrFPU",
+    "featured_collections_wQAHaW",
+    "featured_collections_zeaVaL",
+    "featured_collections_NzywLe",
+    "text_with_icons_DatCHJ"
+  ]
+}
